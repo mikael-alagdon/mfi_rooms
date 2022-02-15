@@ -1,0 +1,26 @@
+p.a {font-family: "Times New Roman", Times, serif;}
+p.b {font-family: Arial, Helvetica, sans-serif;}
+
+#successmessage{
+
+
+     animation:successmessage 0.5s 1;
+    -webkit-animation:successmessage 0.5s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay:2s;
+    -webkit-animation-delay:1s;  Safari and Chrome 
+    -webkit-animation-fill-mode: forwards;
+
+} 
+
+@keyframes successmessage{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@-webkit-keyframes successmessage{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
